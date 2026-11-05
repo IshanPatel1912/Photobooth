@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
+# Normalize line endings for text files
 * text=auto
+
+# --- Language stats: the committed Python virtual environment is not project code ---
+venv/** linguist-vendored
+
+# --- Binary files ---
+*.pyd binary
+*.dll binary
+*.dat binary
+*.pyc binary
+*.exe binary
